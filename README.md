@@ -12,15 +12,15 @@ A very simple generator of mock data
 ### Use as node module
 
 ```javascript
-const mock = require('mock');
-const seedSchema = 'name:string,category:array(5)[number],data:object{name:string,age:number},count:number';
-console.log(mock(seedSchema));
+const mock = require('seed-mock');
+const seed= 'name:string,category:array(5)[number],data:object{name:string,age:number},count:number';
+console.log(mock(seed));
 ```
 ### Use as command
 
 - Generating mock data from seed schema
   ```sh
-  dummy -s name:string,category:array(5)[number],data:object{name:string,age:number},count:number
+  seed-mock -s name:string,category:array(5)[number],data:object{name:string,age:number},count:number
   ```
 - Pretty output data with `-pretty [spaces]` or `-p [spaces]` or `-p`
 
