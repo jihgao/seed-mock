@@ -18,7 +18,7 @@ function test(args, cb) {
   try {
     result = spawnSync(
       'node',
-      ['./dummy.js'].concat((args || '').split(/\s+/))
+      ['./seed-mock.js'].concat((args || '').split(/\s+/))
     ).stdout.toString();
     console.log(result);
   } catch (err) {
