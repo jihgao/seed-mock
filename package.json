@@ -1,0 +1,32 @@
+{
+  "name": "mock",
+  "version": "0.0.1",
+  "description": "A very simple generator of mock data",
+  "bin": {
+    "mock": "./mock.js"
+  },
+  "main": "./lib/parser",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mock",
+    "generator",
+    "development",
+    "test"
+  ],
+  "author": "Moki Gao",
+  "homepage": "https://github.com/jihgao/mock#readme",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "rand-names": "^2.0.3"
+  },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jihgao/pocket-sync.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jihgao/pocket-sync/issues"
+    }
+}
