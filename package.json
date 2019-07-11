@@ -24,9 +24,9 @@
   },
     "repository": {
       "type": "git",
-      "url": "https://github.com/jihgao/pocket-sync.git"
+      "url": "https://github.com/jihgao/mock.git"
     },
     "bugs": {
-      "url": "https://github.com/jihgao/pocket-sync/issues"
+      "url": "https://github.com/jihgao/mock/issues"
     }
 }
