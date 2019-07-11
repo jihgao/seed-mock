@@ -1,9 +1,9 @@
 {
-  "name": "mock",
+  "name": "seed-mock",
   "version": "0.0.1",
   "description": "A very simple generator of mock data",
   "bin": {
-    "mock": "./mock.js"
+    "seed-mock": "./seed-mock.js"
   },
   "main": "./lib/parser",
   "scripts": {
@@ -16,7 +16,7 @@
     "test"
   ],
   "author": "Moki Gao",
-  "homepage": "https://github.com/jihgao/mock#readme",
+  "homepage": "https://github.com/jihgao/seed-mock#readme",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
@@ -24,9 +24,9 @@
   },
     "repository": {
       "type": "git",
-      "url": "https://github.com/jihgao/mock.git"
+      "url": "https://github.com/jihgao/seed-mock.git"
     },
     "bugs": {
-      "url": "https://github.com/jihgao/mock/issues"
+      "url": "https://github.com/jihgao/seed-mock/issues"
     }
 }
